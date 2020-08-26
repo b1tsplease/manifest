@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import InfoBullets from '../components/InfoBullets'
 import ReadManifest from '../components/ReadManifest'
+import Supporters from '../components/Supporters'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <InfoBullets />
         <ReadManifest />
+        <Supporters />
       </Content>
     </div>
   )
