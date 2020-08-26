@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "Quero Educação",
+  "homepage": "https://github.com/b1tsplease/manifest#readme",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1tsplease/manifest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b1tsplease/manifest/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
