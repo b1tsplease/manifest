@@ -26,7 +26,7 @@
 .supportersRight img {
   display: block;
   max-height: 48px;
-  max-width: 152px;
+  max-width: 139px;
 }
 
 .button {
@@ -76,7 +76,7 @@
   }
 
   .supportersRight a:nth-child(-n+3) {
-    align-self: flex-start;
+    margin-top: -21px;
   }
 
   .supportersRight a {
