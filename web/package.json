@@ -1,6 +1,6 @@
 {
+  "private": true,
   "name": "web",
-  "version": "0.0.0",
   "description": "Landing do Manifesto",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
