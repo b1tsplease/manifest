@@ -18,8 +18,8 @@
   max-width: 320px;
 }
 
-.supportersLine {
-  display: flex;
+.supportersLine a {
+  margin-top: 36px;
   height: 48px;
 }
 
@@ -64,5 +64,13 @@
 
   .supportersRight {
     margin-top: 0;
+  }
+
+  .supportersRight .supportersLine:last-child {
+    margin-bottom: 0;
+  }
+
+  .supportersRight .supportersLine {
+    margin-bottom: 36px;
   }
 }
