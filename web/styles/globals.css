@@ -54,9 +54,11 @@ table {
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Red Hat Text', sans-serif;
+	color: #002B50;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 23.04px;
+	margin: 0;
+	padding: 0;
 }
 
 a {
