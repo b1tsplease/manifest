@@ -1,0 +1,103 @@
+.supportersContainer {
+  position: relative;
+  margin: 128px auto 0 auto;
+}
+
+.supportersSubtitle {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.supportersLeft {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.supportersRight {
+  margin: 64px auto 0 auto;
+  max-width: 320px;
+}
+
+.supportersRight a {
+  display: block;
+  margin: 18px auto 0 auto;
+}
+
+.supportersRight img {
+  display: block;
+  max-height: 48px;
+  max-width: 139px;
+}
+
+.button {
+  color: #304FFE;
+  border: none;
+  border-radius: 4px;
+  background: #FFF;
+  padding: 8px 16px;
+}
+
+.buttonOutlined {
+  color: #304FFE;
+  background: #FFF;
+  border-color: #304FFE;
+  border-width: 1px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 32px;
+  padding: 8px 16px;
+}
+
+.button:hover,
+.buttonOutlined:hover {
+  background-color: #304FFE;
+  color: #FFF;
+}
+
+@media (min-width: 961px) {
+  .supportersContainer {
+    display: inline-block;
+    display:flex;
+  }
+
+  .supportersLeft {
+    margin-left: 0;
+    max-width: 168px;
+  }
+
+  .supportersRight {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 4vw);
+    margin-left: 0;
+    margin-top: 0;
+
+    max-width: 472px;
+  }
+
+  .supportersRight a:nth-child(-n+3) {
+    margin-top: -21px;
+  }
+
+  .supportersRight a {
+    align-self: center;
+    grid-area: auto;
+    margin-left: 0;
+  }
+
+  .supportersRight img {
+    margin-right: 18px;
+  }
+
+  .supportersRight .supportersLine:last-child {
+    margin-bottom: 0;
+  }
+
+  .supportersRight .supportersLine {
+    margin-bottom: 36px;
+  }
+
+  .supportersRight a {
+    margin-top: 0;
+  }
+}

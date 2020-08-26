@@ -1,7 +1,6 @@
 .readManifestContainer {
-  display: inline-block;
   position: relative;
-  margin: 128px auto 0 auto;
+  margin: 64px auto 0 auto;
 }
 
 .readManifestSubtitle {
@@ -10,11 +9,12 @@
 }
 
 .readManifestLeft {
+  margin: 0 auto;
   max-width: 320px;
 }
 
 .readManifestRight {
-  margin-top: 42px;
+  margin: 42px auto 0 auto;
   max-width: 320px;
 }
 
@@ -65,13 +65,16 @@
 @media (min-width: 961px) {
   .readManifestContainer {
     display:flex;
+    margin-top: 128px;
   }
 
   .readManifestLeft {
+    margin-left: 0;
     margin-right: 149px;
   }
 
   .readManifestRight {
+    margin-left: 0;
     margin-top: 0;
   }
 

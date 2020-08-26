@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
-import styles from './Video.module.css';
+import styles from './IFrame.module.css';
 
-export const YouTube = memo(({ src }) => (
-  <div className={styles.fluidVideo}>
+const IFrame = memo(({ src }) => (
+  <div className={styles.fluidPdf}>
     <iframe
       src={src}
       frameBorder="0"
@@ -12,6 +12,4 @@ export const YouTube = memo(({ src }) => (
   </div>
 ));
 
-const Video = () => <div>Not implemented</div>;
-
-export default Video;
+export default IFrame;
