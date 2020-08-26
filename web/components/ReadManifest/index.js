@@ -8,7 +8,7 @@ const ReadManifest = () => (
         O que a Internet pela Educação defende?
       </h2>
 
-      <button className={styles.buttonOutlined}>Ler o manifesto completo</button>
+      <button className={styles.buttonOutlined}  aria-label="Ler o manifesto completo">Ler o manifesto completo</button>
     </div>
 
     <div className={styles.readManifestRight}>
