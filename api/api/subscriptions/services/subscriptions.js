@@ -20,7 +20,6 @@ module.exports = {
    *
    * @return {Promise}
    */
-
   search(params) {
     return strapi.query("subscriptions").search(params);
   },
@@ -30,7 +29,6 @@ module.exports = {
    *
    * @return {Promise}
    */
-
   count(params) {
     return strapi.query("subscriptions").count(params);
   },
@@ -40,19 +38,8 @@ module.exports = {
    *
    * @return {Promise}
    */
-
-  async create(data, { files } = {}) {
+  async create(data) {
     const entry = await strapi.query("subscriptions").create(data);
-
-    if (files) {
-      // automatically uploads the files based on the entry and the model
-      await strapi.entityService.uploadFiles(entry, files, {
-        model: "subscriptions"
-        // if you are using a plugin's model you will have to add the `source` key (source: 'users-permissions')
-      });
-      return this.findOne({ id: entry.id });
-    }
-
     return entry;
   }
 };

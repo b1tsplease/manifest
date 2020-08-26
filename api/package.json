@@ -16,16 +16,16 @@
     "build": "strapi build",
     "strapi": "strapi",
     "lint": "eslint .",
-    "format": "p"
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
+    "faker": "^5.0.0",
     "prettier": "^2.1.1"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
     "knex": "<0.20.0",
     "pg": "^8.3.2",
     "sqlite3": "latest",
@@ -35,6 +35,7 @@
     "strapi-plugin-content-manager": "3.1.4",
     "strapi-plugin-content-type-builder": "3.1.4",
     "strapi-plugin-email": "3.1.4",
+    "strapi-plugin-upload": "^3.1.4",
     "strapi-plugin-users-permissions": "3.1.4",
     "strapi-utils": "3.1.4"
   }

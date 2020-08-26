@@ -1,5 +1,4 @@
 {
-  "kind": "singleType",
   "collectionName": "subscriptions",
   "info": {
     "name": "Assinaturas"
@@ -17,7 +16,6 @@
     "email": {
       "type": "email",
       "private": true,
-      "required": true,
       "unique": true
     },
     "occupation": {
