@@ -10,4 +10,7 @@
  * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+// Makes all environment variables available on `process.ENV`
+require("dotenv").config();
+
+module.exports = () => { };
