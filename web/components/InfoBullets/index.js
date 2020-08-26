@@ -14,7 +14,7 @@ const InfoBullets = () => (
         </div>
 
         <div className={styles.informativeContent__block_text}>
-          1 em cada 5 alunos de escolas públicas <strong>acessam à internet pelo celular</strong>
+          <p>1 em cada 5 alunos de escolas públicas <strong>acessam à internet pelo celular</strong></p>
         </div>
       </div>
 
@@ -28,7 +28,7 @@ const InfoBullets = () => (
         </div>
 
         <div className={styles.informativeContent__block_text}>
-          2 em cada 5 estudantes de escolas públicas urbanas <strong>não possuem computador</strong>
+          <p>2 em cada 5 estudantes de escolas públicas urbanas <strong>não possuem computador</strong></p>
         </div>
       </div>
     </div>
@@ -42,14 +42,16 @@ const InfoBullets = () => (
         </div>
 
         <div className={styles.informativeContent__block_text}>
-          1  em cada 3 inscritos no Enem nos últimos cinco anos <strong>não possuem acesso à internet</strong>
+          <p>1  em cada 3 inscritos no Enem nos últimos cinco anos <strong>não possuem acesso à internet</strong></p>
         </div>
       </div>
 
       <div className={styles.informativeContent__block}>
         <div className={[styles.informativeContent__block_text, styles.informativeContent__block_text_fonts].join(" ")}>
-          Fontes:  TIC Educação 2019 <br />
-          Inep 2019
+          <p>
+            Fontes: TIC Educação 2019 <br />
+            Inep 2019
+          </p>
         </div>
       </div>
     </div>

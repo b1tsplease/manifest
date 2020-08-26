@@ -3,6 +3,7 @@ import Content from '../components/Content'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import InfoBullets from '../components/InfoBullets'
+import ReadManifest from '../components/ReadManifest'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Content>
         <Hero />
         <InfoBullets />
+        <ReadManifest />
       </Content>
     </div>
   )
