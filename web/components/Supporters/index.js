@@ -12,7 +12,6 @@ const ReadManifest = () => (
     </div>
 
     <div className={styles.supportersRight}>
-      <div className={styles.supportersLine}>
         <a href="https://sobre.quero.com/" target="_blank">
           <img className={styles.logo} src="/images/supporters/quero_educacao.png" alt="Quero Educação" />
         </a>
@@ -24,9 +23,7 @@ const ReadManifest = () => (
         <a href="https://www.melhorescola.com.br/" target="_blank">
           <img className={styles.logo} src="/images/supporters/melhor_escola.png" alt="Melhor Escola" />
         </a>
-      </div>
 
-      <div className={styles.supportersLine}>
         <a href="https://www.isemear.org.br/" target="_blank">
           <img className={styles.logo} src="/images/supporters/instituto_semear.png" alt="Instituto Semear" />
         </a>
@@ -38,13 +35,10 @@ const ReadManifest = () => (
         <a href="https://regeneracaoglobal.com/home#googtrans(pt)" target="_blank">
           <img className={styles.logo} src="/images/supporters/regeneracao_global.png" alt="Regeneração Global" />
         </a>
-      </div>
 
-      <div className={styles.supportersLine}>
         <a href="https://www.iefuturo.org.br/" target="_blank">
           <img className={styles.logo} src="/images/supporters/instituto_empreendedor_futuro.png" alt="Instituto Empreendedor do Futuro" />
         </a>
-      </div>
     </div>
   </div>
 );

@@ -1,5 +1,4 @@
 .supportersContainer {
-  display: inline-block;
   position: relative;
   margin: 128px auto 0 auto;
 }
@@ -10,20 +9,22 @@
 }
 
 .supportersLeft {
+  margin: 0 auto;
   max-width: 320px;
 }
 
 .supportersRight {
-  margin-top: 42px;
+  margin: 64px auto 0 auto;
   max-width: 320px;
 }
 
-.supportersLine a {
-  margin-top: 36px;
-  height: 48px;
+.supportersRight a {
+  display: block;
+  margin: 18px auto 0 auto;
 }
 
 .supportersRight img {
+  display: block;
   max-height: 48px;
   max-width: 152px;
 }
@@ -55,15 +56,37 @@
 
 @media (min-width: 961px) {
   .supportersContainer {
+    display: inline-block;
     display:flex;
   }
 
   .supportersLeft {
-    margin-right: 149px;
+    margin-left: 0;
+    max-width: 168px;
   }
 
   .supportersRight {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 4vw);
+    margin-left: 0;
     margin-top: 0;
+
+    max-width: 472px;
+  }
+
+  .supportersRight a:nth-child(-n+3) {
+    align-self: flex-start;
+  }
+
+  .supportersRight a {
+    align-self: center;
+    grid-area: auto;
+    margin-left: 0;
+  }
+
+  .supportersRight img {
+    margin-right: 18px;
   }
 
   .supportersRight .supportersLine:last-child {
@@ -72,5 +95,9 @@
 
   .supportersRight .supportersLine {
     margin-bottom: 36px;
+  }
+
+  .supportersRight a {
+    margin-top: 0;
   }
 }

@@ -1,14 +1,16 @@
-import React from 'react';
+import { memo } from 'react';
 import styles from './ReadManifest.module.css';
 
-const ReadManifest = () => (
+const ReadManifest = memo(({ onClickReadManifest }) => (
   <div className={styles.readManifestContainer}>
     <div className={styles.readManifestLeft}>
       <h2 className={styles.readManifestSubtitle}>
         O que a Internet pela Educação defende?
       </h2>
 
-      <button className={styles.buttonOutlined}  aria-label="Ler o manifesto completo">Ler o manifesto completo</button>
+      <button onClick={onClickReadManifest} className={styles.buttonOutlined}  aria-label="Ler o manifesto completo">
+        Ler o manifesto completo
+      </button>
     </div>
 
     <div className={styles.readManifestRight}>
@@ -43,6 +45,6 @@ const ReadManifest = () => (
       </div>
     </div>
   </div>
-);
+));
 
 export default ReadManifest;
