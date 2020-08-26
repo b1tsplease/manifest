@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import InfoBullets from '../components/InfoBullets'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       </Head>
 
       <Header />
+
+      <InfoBullets />
     </div>
   )
 }

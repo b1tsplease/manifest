@@ -1,0 +1,24 @@
+.informativeContent__block {
+  display: inline-block;
+  width: 320px;
+}
+
+.informativeContent__bullets .circle:last-child {
+  margin-right: 0;
+}
+
+.circle {
+  border: 1px solid #002B50;
+  border-radius: 100%;
+  display: inline-block;
+  height: 24px;
+  margin-right: 8px;
+  width: 24px;
+}
+
+
+
+.circleRed {
+  background-color: #F00;
+  border: none;
+}
