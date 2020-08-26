@@ -8,9 +8,15 @@ const ReadManifest = memo(({ onClickReadManifest }) => (
         O que a Internet pela Educação defende?
       </h2>
 
-      <button onClick={onClickReadManifest} className={styles.buttonOutlined}  aria-label="Ler o manifesto completo">
+      <button onClick={onClickReadManifest} className={[styles.buttonOutlined, styles.buttonDesk].join(" ")}  aria-label="Ler o manifesto completo">
         Ler o manifesto completo
       </button>
+
+      <a href="/files/manifesto_pela_educacao.pdf" className={styles.buttonMobile} target="_blank" rel="noopener noreferrer" download>
+        <button className={styles.buttonOutlined}  aria-label="Ler o manifesto completo">
+          Ler o manifesto completo
+        </button>
+      </a>
     </div>
 
     <div className={styles.readManifestRight}>
