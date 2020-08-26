@@ -24,11 +24,20 @@
 }
 
 .watchVideoButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 19.2px;
   line-height: 150%;
   border: none;
   color: #304FFE;
   background-color: #ffffff;
+}
+
+.iconPlayCircle {
+  height: 32px;
+  width: 32px;
+  margin-right: 8px;
 }
 
 @media (max-width: 768px) {
