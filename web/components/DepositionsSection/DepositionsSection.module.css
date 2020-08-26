@@ -1,0 +1,19 @@
+.depositionsSection {
+  position: relative;
+  padding: 32px 0;
+}
+
+.depositionsSectionTitle {
+  width: 300px;
+  font-weight: bold;
+  font-size: 33.18px;
+  position: absolute;
+  top: 140px;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .depositionsSectionTitle {
+    position: initial;
+  }
+}
