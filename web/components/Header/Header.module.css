@@ -1,3 +1,48 @@
 .container {
-  flex: 1
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 64px;
+  padding-right: 32px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  color: #304FFE;
+  border: none;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 8px 16px;
+}
+
+.buttonOutlined {
+  color: #304FFE;
+  border-width: 1px;
+  border-color: #304FFE;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .logoContainer {
+    flex: 2;
+  }
+
+  .buttonContainer {
+    flex: 2;
+  }
 }
