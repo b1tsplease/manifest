@@ -37,6 +37,12 @@
   font-weight: 500;
 }
 
+.button:hover,
+.buttonOutlined:hover {
+  background-color: #304FFE;
+  color: #FFF;
+}
+
 @media (max-width: 768px) {
   .logoContainer {
     flex: 2;

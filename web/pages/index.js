@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import InfoBullets from '../components/InfoBullets';
 import Modal from '../components/Modal';
+import ReadManifest from '../components/ReadManifest';
 import { YouTube } from '../components/Video';
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
         </Modal>
         <Hero onClickWatchVideo={handleVideoModalOpen} />
         <InfoBullets />
+        <ReadManifest />
       </Content>
     </div>
   )
