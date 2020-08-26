@@ -7,15 +7,10 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "name": "Launch Strapi (Development)",
+      "skipFiles": ["<node_internals>/**"],
       "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run",
-        "develop"
-      ],
+      "runtimeArgs": ["run", "develop"],
       "outputCapture": "std"
     }
   ]
