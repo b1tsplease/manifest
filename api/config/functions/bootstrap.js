@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * An asynchronous bootstrap function that runs before
@@ -13,4 +13,4 @@
 // Makes all environment variables available on `process.ENV`
 require("dotenv").config();
 
-module.exports = () => { };
+module.exports = () => {};
