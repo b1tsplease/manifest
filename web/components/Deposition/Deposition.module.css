@@ -16,6 +16,7 @@
 }
 
 .depositionItemVideo {
+  cursor: pointer;
   position: relative;
   padding: 0;
   background-color: #000;

@@ -4,9 +4,11 @@ import Content from '../components/Content';
 import DepositionsSection from '../components/DepositionsSection';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import IFrame from '../components/IFrame';
 import InfoBullets from '../components/InfoBullets';
 import Modal from '../components/Modal';
 import ReadManifest from '../components/ReadManifest';
+import Supporters from '../components/Supporters';
 import { YouTube } from '../components/Video';
 
 export default function Home() {
@@ -17,10 +19,13 @@ export default function Home() {
   ]);
 
   const [isVideoModalVisible, setIsVideoModalVisible] = useState(false);
+  const [isManifestModalVisible, setIsManifestModalVisible] = useState(false);
 
   const handleVideoModalOpen = () => setIsVideoModalVisible(true);
-
   const handleVideoModalDismiss = () => setIsVideoModalVisible(false);
+
+  const handleManifestModalOpen = () => setIsManifestModalVisible(true);
+  const handleManifestModalDismiss = () => setIsManifestModalVisible(false);
 
   return (
     <div>
@@ -40,13 +45,23 @@ export default function Home() {
           <YouTube src="https://www.youtube.com/embed/rHax1Pg-iSM" />
         </Modal>
 
+        <Modal
+          visible={isManifestModalVisible}
+          onDismiss={handleManifestModalDismiss}
+        >
+          <IFrame src="/files/manifesto_pela_educacao.pdf"></IFrame>
+        </Modal>
+
+
         <Hero onClickWatchVideo={handleVideoModalOpen} />
 
         <InfoBullets />
 
-        <ReadManifest />
+        <ReadManifest onClickReadManifest={handleManifestModalOpen} />
 
         <DepositionsSection data={depositions} />
+
+        <Supporters />
       </Content>
     </div>
   )
