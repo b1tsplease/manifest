@@ -18,6 +18,15 @@
   max-width: 320px;
 }
 
+.supportersLine {
+  display: flex;
+  height: 48px;
+}
+
+.supportersRight img {
+  max-height: 48px;
+  max-width: 152px;
+}
 
 .button {
   color: #304FFE;
