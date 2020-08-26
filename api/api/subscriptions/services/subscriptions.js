@@ -33,6 +33,7 @@ module.exports = {
    */
   async create(data) {
     const entry = await strapi.query("subscriptions").create(data);
+
     return entry;
   }
 };
