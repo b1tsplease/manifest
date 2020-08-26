@@ -1,0 +1,2 @@
+# Valida apenas o título do PR para o uso do formato Conventional Commits, já que nós utilizamos Squad and Merge.
+titleOnly: true
