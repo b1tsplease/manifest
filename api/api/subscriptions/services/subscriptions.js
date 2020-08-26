@@ -7,21 +7,14 @@
 
 module.exports = {
   /**
-   * Promise to fetch all records
+   * Promise to fetch the last 3 records
    *
    * @return {Promise}
    */
-  find(params, populate) {
-    return strapi.query("subscriptions").find(params, populate);
-  },
-
-  /**
-   * Promise to search records
-   *
-   * @return {Promise}
-   */
-  search(params) {
-    return strapi.query("subscriptions").search(params);
+  find() {
+    return strapi
+      .query("subscriptions")
+      .find({ _limit: 3, _sort: "created_at:desc" });
   },
 
   /**

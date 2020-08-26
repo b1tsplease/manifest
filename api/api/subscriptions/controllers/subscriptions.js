@@ -9,22 +9,25 @@ const { sanitizeEntity } = require("strapi-utils");
 
 module.exports = {
   /**
-   * Retrieve records.
+   * Retrieve the last 3 records.
    *
    * @return {Array}
    */
-  async find(ctx) {
-    let entities;
+  async find() {
+    const entities = await strapi.services.subscriptions.find();
 
-    if (ctx.query._q) {
-      entities = await strapi.services.subscriptions.search(ctx.query);
-    } else {
-      entities = await strapi.services.subscriptions.find(ctx.query);
-    }
+    return entities.map(entity => {
+      const subscription = sanitizeEntity(entity, {
+        model: strapi.models.subscriptions
+      });
 
-    return entities.map(entity =>
-      sanitizeEntity(entity, { model: strapi.models.subscriptions })
-    );
+      // Deletes default fields.
+      delete subscription.created_by;
+      delete subscription.updated_by;
+      delete subscription.updated_at;
+
+      return subscription;
+    });
   },
 
   /**
