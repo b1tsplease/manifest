@@ -14,7 +14,7 @@ module.exports = {
   find() {
     return strapi
       .query("subscriptions")
-      .find({ _limit: 3, _sort: "created_at:desc" });
+      .find({ _limit: 9, _sort: "created_at:desc" });
   },
 
   /**

@@ -2,6 +2,19 @@
 
 const { sanitizeEntity } = require("strapi-utils");
 
+const sanitizeSubscription = entity => {
+  const subscription = sanitizeEntity(entity, {
+    model: strapi.models.subscriptions
+  });
+
+  // Deletes default fields.
+  delete subscription.created_by;
+  delete subscription.updated_by;
+  delete subscription.updated_at;
+
+  return subscription;
+};
+
 /**
  * Read the documentation (https://strapi.io/documentation/v3.x/concepts/controllers.html#core-controllers)
  * to customize this controller
@@ -16,18 +29,7 @@ module.exports = {
   async find() {
     const entities = await strapi.services.subscriptions.find();
 
-    return entities.map(entity => {
-      const subscription = sanitizeEntity(entity, {
-        model: strapi.models.subscriptions
-      });
-
-      // Deletes default fields.
-      delete subscription.created_by;
-      delete subscription.updated_by;
-      delete subscription.updated_at;
-
-      return subscription;
-    });
+    return entities.map(entity => sanitizeSubscription(entity));
   },
 
   /**
@@ -47,6 +49,6 @@ module.exports = {
   async create(ctx) {
     const entity = await strapi.services.subscriptions.create(ctx.request.body);
 
-    return sanitizeEntity(entity, { model: strapi.models.subscriptions });
+    return sanitizeSubscription(entity);
   }
 };
