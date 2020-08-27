@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
   port: env.int("PORT", 1337),
   admin: {
     auth: {
-      secret: require("crypto").randomBytes(64).toString("base64");
+      secret: require("crypto").randomBytes(64).toString("base64")
     }
   }
 });

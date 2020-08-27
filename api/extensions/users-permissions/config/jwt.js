@@ -1,3 +1,3 @@
 module.exports = {
-  jwtSecret: require("uuid").v4();
+  jwtSecret: require("uuid").v4()
 };
