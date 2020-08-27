@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './FormSection.module.css';
 
 const FormSection = ({ data }) => (
-  <section className={styles.formSection}>
+  <section className={styles.formSection} id="signmanifest">
     <h1 className={styles.formSectionTitle}>Como apoiar o Internet pela Educação?</h1>
     <div className={styles.formSectionContent}>
       <form className={styles.form}>

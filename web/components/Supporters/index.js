@@ -8,7 +8,9 @@ const ReadManifest = () => (
         Apoiadores dessa causa
       </h2>
 
-      <button className={styles.buttonOutlined}  aria-label="Assinar o manifesto">Assinar o manifesto</button>
+      <a href="#signmanifest">
+        <button className={styles.buttonOutlined}  aria-label="Assinar o manifesto">Assinar o manifesto</button>
+      </a>
     </div>
 
     <div className={styles.supportersRight}>
