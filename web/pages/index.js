@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Content from '../components/Content';
 import DepositionsSection from '../components/DepositionsSection';
+import FormSection from '../components/FormSection';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import IFrame from '../components/IFrame';
@@ -62,6 +63,8 @@ export default function Home() {
         <ReadManifest onClickReadManifest={handleManifestModalOpen} />
 
         <DepositionsSection data={depositions} />
+
+        <FormSection />
 
         <Supporters />
 
