@@ -8,7 +8,9 @@ const Header = () => (
     </div>
     <div className={styles.buttonContainer}>
       <button className={styles.button}>Compartilhar</button>
-      <button className={styles.buttonOutlined}>Participar</button>
+      <a href="#signmanifest">
+        <button className={styles.buttonOutlined}>Participar</button>
+      </a>
     </div>
   </div>
 );
