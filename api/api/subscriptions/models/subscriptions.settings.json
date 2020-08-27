@@ -1,0 +1,27 @@
+{
+  "collectionName": "subscriptions",
+  "info": {
+    "name": "Assinaturas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 192
+    },
+    "email": {
+      "type": "email",
+      "private": true,
+      "unique": true
+    },
+    "occupation": {
+      "type": "string",
+      "private": true,
+      "maxLength": 96
+    }
+  }
+}

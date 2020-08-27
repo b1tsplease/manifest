@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subscriptions",
+      "handler": "subscriptions.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subscriptions/count",
+      "handler": "subscriptions.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subscriptions",
+      "handler": "subscriptions.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
