@@ -53,6 +53,10 @@
     margin-right: 149px;
   }
 
+  .midiaText {
+    display: block;
+  }
+
   .midiaRow .midiaBlock:last-child {
     margin-right: 0;
   }
