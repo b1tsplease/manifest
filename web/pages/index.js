@@ -9,6 +9,7 @@ import InfoBullets from '../components/InfoBullets';
 import Modal from '../components/Modal';
 import ReadManifest from '../components/ReadManifest';
 import Supporters from '../components/Supporters';
+import Midia from '../components/Midia';
 import { YouTube } from '../components/Video';
 
 export default function Home() {
@@ -62,6 +63,8 @@ export default function Home() {
         <DepositionsSection data={depositions} />
 
         <Supporters />
+
+        <Midia />
       </Content>
     </div>
   )
