@@ -1,15 +1,17 @@
 .depositionsSection {
+  margin-top: 68px;
   position: relative;
   padding: 32px 0;
 }
 
 .depositionsSectionTitle {
-  width: 300px;
   font-weight: bold;
   font-size: 33.18px;
+  margin: 0 auto;
   position: absolute;
-  top: 140px;
   right: 0;
+  top: 140px;
+  width: 300px;
 }
 
 @media (max-width: 768px) {
