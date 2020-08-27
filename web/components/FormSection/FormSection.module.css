@@ -27,9 +27,9 @@
   font-size: 16px;
   padding: 24px;
   border-radius: 8px;
-  border: 1px #406FFC solid;
-  color: 1px #406FFC solid;
-  background-color: #E2F5FE;
+  border: 1px #406ffc solid;
+  color: 1px #406ffc solid;
+  background-color: #e2f5fe;
 }
 
 .formButton {
@@ -39,8 +39,8 @@
   padding: 16px;
   border-radius: 8px;
   border: none;
-  color: #FAFAFA;
-  background-color: #DA1E28;
+  color: #fafafa;
+  background-color: #da1e28;
 }
 
 .form {
@@ -60,7 +60,7 @@
 
 .signaturesCount {
   display: block;
-  color: #DA1E28;
+  color: #da1e28;
   font-size: 80px;
   font-weight: bold;
 }
@@ -75,7 +75,7 @@
 .signatureItem {
   display: inline-block;
   padding: 8px;
-  background-color: #E2F5FE;
+  background-color: #e2f5fe;
   font-size: 16px;
   margin-bottom: 8px;
 }

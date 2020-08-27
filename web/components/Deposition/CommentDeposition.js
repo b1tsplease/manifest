@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Deposition.module.css';
+import React from "react";
+import styles from "./Deposition.module.css";
 
 const CommentDeposition = ({ comment, author, ocuppation }) => (
   <div className={`${styles.depositionItem} ${styles.depositionItemComment}`}>

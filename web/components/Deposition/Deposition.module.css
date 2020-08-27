@@ -11,7 +11,7 @@
 
 .depositionItemComment {
   border-width: 4px;
-  border-color: #EDF2FF;
+  border-color: #edf2ff;
   border-style: solid;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .depositionItemMessage {
-  color: #002B50;
+  color: #002b50;
   font-size: 19.2px;
   line-height: 150%;
   margin-bottom: 24px;
@@ -55,13 +55,13 @@
 }
 
 .depositionItemAuthor {
-  color: #DA1E28;
+  color: #da1e28;
   font-size: 19.2px;
   line-height: 150%;
 }
 
 .depositionItemOcuppation {
-  color: #DA1E28;
+  color: #da1e28;
   font-size: 19.2px;
   line-height: 150%;
 }
@@ -105,20 +105,20 @@
   }
 
   .depositionItemMessage {
-    color: #002B50;
+    color: #002b50;
     font-size: 12.2px;
     line-height: 150%;
     margin-bottom: 24px;
   }
 
   .depositionItemAuthor {
-    color: #DA1E28;
+    color: #da1e28;
     font-size: 12.2px;
     line-height: 150%;
   }
 
   .depositionItemOcuppation {
-    color: #DA1E28;
+    color: #da1e28;
     font-size: 12.2px;
     line-height: 150%;
   }
