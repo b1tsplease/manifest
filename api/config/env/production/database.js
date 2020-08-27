@@ -1,19 +1,19 @@
-module.exports = ({ env }) => ({
+module.exports = {
   defaultConnection: "default",
   connections: {
     default: {
       connector: "bookshelf",
       settings: {
         client: "postgres",
-        host: env("DATABASE_HOST", "localhost"),
-        port: env.int("DATABASE_PORT", 5432),
-        database: env("DATABASE_NAME", "manifest"),
-        username: env("DATABASE_USERNAME", "quero"),
-        password: env("DATABASE_PASSWORD", "quero"),
+        host: process.env.DATABASE_HOST || "localhost",
+        port: process.env.DATABASE_PORT || 5432,
+        database: process.env.DATABASE_NAME || "manifest",
+        username: process.env.DATABASE_USERNAME || "quero",
+        password: process.env.DATABASE_PASSWORD || "quero",
         schema: "public",
         ssl: { rejectUnauthorized: false }
       },
       options: {}
     }
   }
-});
+};
