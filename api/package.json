@@ -15,6 +15,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
+    "heroku-prebuild": "node scripts/postgres-env.js",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
@@ -26,6 +27,7 @@
     "sqlite3": "latest"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "faker": "^5.0.0",
     "knex": "<0.20.0",
     "pg": "^8.3.2",

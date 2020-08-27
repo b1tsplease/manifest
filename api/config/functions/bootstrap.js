@@ -1,5 +1,9 @@
 "use strict";
 
+if (process.env.NODE_ENV === "production") {
+  require("dotenv").config;
+}
+
 /**
  * An asynchronous bootstrap function that runs before
  * your application gets started.
