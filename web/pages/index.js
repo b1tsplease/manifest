@@ -19,7 +19,7 @@ export default function Home() {
       comment:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
       author: "Anderson Santos",
-      ocuppation: "Developer",
+      ocuppation: "Developer"
     },
     {
       type: "video",
@@ -27,8 +27,8 @@ export default function Home() {
       imageUrl: "/images/video-deposition.png",
       imageAlt: "Vídeo do Fulano falando em algum lugar",
       author: "Anderson Santos",
-      ocuppation: "Developer",
-    },
+      ocuppation: "Developer"
+    }
   ]);
 
   const [isVideoModalVisible, setIsVideoModalVisible] = useState(false);

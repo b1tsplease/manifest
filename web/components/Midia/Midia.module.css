@@ -7,7 +7,7 @@
 .midiaSubtitle {
   font-size: 33px;
   font-weight: bold;
-  margin-top:
+  margin-top: ;
 }
 
 .midiaBlock {
@@ -22,14 +22,14 @@
 }
 
 .midiaBlock a {
-  color: #304FFE;
+  color: #304ffe;
   display: block;
   margin-top: 24px;
   text-decoration: underline;
 }
 
 .midiaBlock a:hover {
-  color: #002B50;
+  color: #002b50;
 }
 
 @media (min-width: 961px) {
@@ -39,7 +39,7 @@
   }
 
   .midiaRow {
-    display:flex;
+    display: flex;
   }
 
   .midiaRow .midiaBlock {

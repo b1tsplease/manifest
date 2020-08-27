@@ -5,7 +5,7 @@
 }
 
 .fluidPdf iframe,
-.fluidPdf object{
+.fluidPdf object {
   position: absolute;
   top: 0;
   left: 0;
