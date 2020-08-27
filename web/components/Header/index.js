@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 const Header = () => (
   <div className={styles.container}>
     <div className={styles.logoContainer}>
-      <img className={styles.logo} src="/images/logo-2x.png" alt="" />
+      <img className={styles.logo} src="/images/logo-2x.webp" alt="" />
     </div>
     <div className={styles.buttonContainer}>
       <button className={styles.button}>Compartilhar</button>

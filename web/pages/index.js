@@ -28,7 +28,7 @@ export default function Home() {
       id: 2,
       type: "video",
       videoUrl: "https://www.youtube.com/embed/rHax1Pg-iSM",
-      imageUrl: "/images/video-deposition.png",
+      imageUrl: "/images/video-deposition.webp",
       imageAlt: "Vídeo do Fulano falando em algum lugar",
       author: "Anderson Santos",
       ocuppation: "Developer"
@@ -50,7 +50,7 @@ export default function Home() {
         <title>Internet pela Educação</title>
         <meta
           name="description"
-          description="A educação remota em tempos de pandemia evidenciou o óbvio: O grande número de excluídos digitais"
+          content="A educação remota em tempos de pandemia evidenciou o óbvio: O grande número de excluídos digitais"
         />
         <link rel="icon" href="/favicon.ico" />
         <link

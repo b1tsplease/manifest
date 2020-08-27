@@ -24,7 +24,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/quero_educacao.png"
+          src="/images/supporters/quero_educacao.webp"
           alt="Quero Educação"
         />
       </a>
@@ -32,7 +32,7 @@ const ReadManifest = () => (
       <a href="https://invoz.org" rel="noopener noreferrer" target="_blank">
         <img
           className={styles.logo}
-          src="/images/supporters/invoz.png"
+          src="/images/supporters/invoz.webp"
           alt="INVOZ"
         />
       </a>
@@ -44,7 +44,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/melhor_escola.png"
+          src="/images/supporters/melhor_escola.webp"
           alt="Melhor Escola"
         />
       </a>
@@ -56,7 +56,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/instituto_semear.png"
+          src="/images/supporters/instituto_semear.webp"
           alt="Instituto Semear"
         />
       </a>
@@ -68,7 +68,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/quero_bolsa.png"
+          src="/images/supporters/quero_bolsa.webp"
           alt="Quero Bolsa"
         />
       </a>
@@ -80,7 +80,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/regeneracao_global.png"
+          src="/images/supporters/regeneracao_global.webp"
           alt="Regeneração Global"
         />
       </a>
@@ -92,7 +92,7 @@ const ReadManifest = () => (
       >
         <img
           className={styles.logo}
-          src="/images/supporters/instituto_empreendedor_futuro.png"
+          src="/images/supporters/instituto_empreendedor_futuro.webp"
           alt="Instituto Empreendedor do Futuro"
         />
       </a>
