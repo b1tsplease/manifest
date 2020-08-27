@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Root",
+			"path": "."
+		},
+		{
+			"name": "Strapi API",
+			"path": "api"
+		},
+		{
+			"name": "Next.js Application",
+			"path": "web"
+		}
+	],
+	"settings": {}
+}

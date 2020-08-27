@@ -48,58 +48,9 @@ npm install -g lerna
 lerna bootstrap
 ```
 
------
+---
 
 É isso, você está pronto pra contribuir no projeto. Basta fazer as mudanças na sua branch e abrir um Pull Request.
-
-#### Guia de commits
-
-> **Writing commit messages**
-> [follow the commit guideline](COMMIT_GUIDELINE.md).
-
-_Do not open pull requests from the `master` branch._
-
-```
-git checkout -b { YOUR_BRANCH_NAME }
-git add .
-git commit -m "style(core/accordion): wrong color bg"
-```
-
-- [You can also close an issue via commit message](https://help.github.com/en/enterprise/2.16/user/managing-your-work-on-github/closing-issues-using-keywords)
-
-```
-git push origin { YOUR_BRANCH_NAME }
-```
-
-In your browser, navigate to
-[Zilla](https://github.com/quero-edu/zilla) and click the
-button that reads `Compare & pull request`
-
-> **Is it a Breaking Change?**
-
-> We want to respect semver. It's important to discern whether your pull request
-> contains breaking changes or not. Sometimes, renaming or removing things in
-> the code can result in breaking changes, such as:
->
-> - Folders or Files
-> - Any SCSS `@mixin`, `$variable` or `function`
-
-> We also practice **graceful deprecation**. When something is slated to be
-> removed -- we mark it as deprecated in the current version and remove it in
-> the next major version.
-
-Before you create a pull request, change the base branch depending on what kind
-of change you're submitting.
-
-- Pull requests with **non-breaking changes** like patches and minor updates use
-  the `master` as the base branch.
-- Pull requests with **breaking changes** use the latest `major version number`
-  branch as the base branch (i.e. `7.0.0` or whatever the next major version
-  is).
-
-Write a title and description, then click `Create pull request`
-
-- [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
 
 ### 5. Atualizando um Pull Request
 
