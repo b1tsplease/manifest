@@ -30,17 +30,17 @@
 }
 
 .button {
-  color: #304FFE;
+  color: #304ffe;
   border: none;
   border-radius: 4px;
-  background: #FFF;
+  background: #fff;
   padding: 8px 16px;
 }
 
 .buttonOutlined {
-  color: #304FFE;
-  background: #FFF;
-  border-color: #304FFE;
+  color: #304ffe;
+  background: #fff;
+  border-color: #304ffe;
   border-width: 1px;
   border-radius: 4px;
   font-weight: 500;
@@ -50,13 +50,13 @@
 
 .button:hover,
 .buttonOutlined:hover {
-  background-color: #304FFE;
-  color: #FFF;
+  background-color: #304ffe;
+  color: #fff;
 }
 
 @media (min-width: 961px) {
   .supportersContainer {
-    display:flex;
+    display: flex;
   }
 
   .supportersLeft {
@@ -74,7 +74,7 @@
     max-width: 472px;
   }
 
-  .supportersRight a:nth-child(-n+3) {
+  .supportersRight a:nth-child(-n + 3) {
     margin-top: -21px;
   }
 

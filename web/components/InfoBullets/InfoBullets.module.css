@@ -10,7 +10,7 @@
 }
 
 .informativeContent__block_text_fonts {
-  color: #406FFC;
+  color: #406ffc;
   font-size: 16px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .circle {
-  border: 1px solid #002B50;
+  border: 1px solid #002b50;
   border-radius: 100%;
   display: inline-block;
   height: 24px;
@@ -33,11 +33,9 @@
 }
 
 .circleRed {
-  background-color: #F00;
+  background-color: #f00;
   border: none;
 }
-
-
 
 @media (min-width: 961px) {
   .informativeContent__block {

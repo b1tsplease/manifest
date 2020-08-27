@@ -6,21 +6,21 @@
 }
 
 .heroSubtitle {
-  color: #002B50;
+  color: #002b50;
   font-size: 40px;
   line-height: 120%;
   font-weight: normal;
 }
 
 .heroTitle {
-  color: #DA1E28;
+  color: #da1e28;
   font-size: 80px;
   line-height: 110%;
   font-weight: bold;
 }
 
 .watchVideoButtonContainer {
-  margin-top:  32px;
+  margin-top: 32px;
 }
 
 .watchVideoButton {
@@ -30,7 +30,7 @@
   font-size: 19.2px;
   line-height: 150%;
   border: none;
-  color: #304FFE;
+  color: #304ffe;
   background-color: #ffffff;
 }
 
