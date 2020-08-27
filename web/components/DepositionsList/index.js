@@ -6,7 +6,7 @@ const DepositionsList = memo(({ data }) => {
   return (
     <div className={styles.depositionsList}>
       {data.map(deposition => (
-        <Deposition {...deposition} />
+        <Deposition key={deposition.id} {...deposition} />
       ))}
     </div>
   );

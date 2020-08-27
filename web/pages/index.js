@@ -15,6 +15,7 @@ import { YouTube } from "../components/Video";
 export default function Home() {
   const [depositions, setDepositions] = useState([
     {
+      id: 1,
       type: "comment",
       comment:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
@@ -22,6 +23,7 @@ export default function Home() {
       ocuppation: "Developer"
     },
     {
+      id: 2,
       type: "video",
       videoUrl: "https://www.youtube.com/embed/rHax1Pg-iSM",
       imageUrl: "/images/video-deposition.png",
