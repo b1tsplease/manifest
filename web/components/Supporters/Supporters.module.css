@@ -56,7 +56,6 @@
 
 @media (min-width: 961px) {
   .supportersContainer {
-    display: inline-block;
     display:flex;
   }
 

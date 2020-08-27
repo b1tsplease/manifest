@@ -10,6 +10,8 @@ import InfoBullets from '../components/InfoBullets';
 import Modal from '../components/Modal';
 import ReadManifest from '../components/ReadManifest';
 import Supporters from '../components/Supporters';
+import Midia from '../components/Midia';
+import Footer from '../components/Footer';
 import { YouTube } from '../components/Video';
 
 export default function Home() {
@@ -65,7 +67,11 @@ export default function Home() {
         <FormSection />
 
         <Supporters />
+
+        <Midia />
       </Content>
+
+      <Footer />
     </div>
   )
 };
