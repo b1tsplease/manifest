@@ -1,6 +1,10 @@
 "use strict";
 
-if (process.env.NODE_ENV === "production") {
+const isProd = () => {
+  process.env.NODE_ENV === "production";
+};
+
+if (isProd) {
   require("dotenv").config;
 }
 
@@ -69,6 +73,6 @@ module.exports = async () => {
 
   if (shouldSetDefaultPermissions) {
     await setDefaultPermissions();
-    await createSeedData();
+    !isProd && (await createSeedData());
   }
 };
