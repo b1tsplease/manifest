@@ -10,6 +10,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"

@@ -59,7 +59,7 @@ const FormSection = ({ data }) => {
       <div className={styles.formSectionContent}>
         <form className={styles.form} onSubmit={handleSubmit} ref={formRef}>
           <div className={styles.formGroup}>
-            <label for="formName" className={styles.formLabel}>
+            <label htmlFor="formName" className={styles.formLabel}>
               Nome
             </label>
             <input
@@ -71,7 +71,7 @@ const FormSection = ({ data }) => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label for="formEmail" className={styles.formLabel}>
+            <label htmlFor="formEmail" className={styles.formLabel}>
               E-mail
             </label>
             <input
@@ -83,7 +83,7 @@ const FormSection = ({ data }) => {
             />
           </div>
           <div className={styles.formGroup}>
-            <label for="formOccupation" className={styles.formLabel}>
+            <label htmlFor="formOccupation" className={styles.formLabel}>
               Ocupação
             </label>
             <input
